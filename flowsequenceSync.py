@@ -32,6 +32,7 @@ Change the URI variable to your Crazyflie configuration.
 """
 import logging
 import time
+import math
 
 import cflib.crtp
 from cflib.crazyflie import Crazyflie
